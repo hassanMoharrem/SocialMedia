@@ -1,0 +1,200 @@
+@font-face {
+    src: url("../fonts/Lato-Regular.ttf");
+    font-family: "main";
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "main", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-image:url("../images/background.png") ;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    object-fit: cover;
+    background-position: center;
+    direction: ltr;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.bg-danger-e{
+    background: #ED1C24;
+}
+.btn-danger-e{
+    color: #fff;
+    background-color: #ED1C24;
+    border-color: #ED1C24;
+}
+.text-danger-e{
+    color: #ED1C24;
+}
+.bg-white-rgba{
+    background: rgba(255,255,255,0.7);
+}
+.all-w{
+    width: 100%;
+    margin: 0 auto;
+}
+.cover{
+    object-fit: cover;
+}
+.list-left {
+    max-width: 250px;
+    width: 250px;
+    overflow-x: hidden;
+    min-height: 100vh;
+    height: calc(100vh - 80px);
+}
+.list-right {
+    max-width: 250px;
+    width: 250px;
+    overflow-x: hidden;
+    min-height: 100vh;
+    height: calc(100vh - 80px);
+}
+.icon-search{
+    top: 11px;
+    font-size: 12px;
+}
+.mt-50{
+    margin-top: 80px;
+}
+.ms-n-2{
+    margin-left: -20px;
+}
+.main{
+    width: 730px;
+    margin: 0 auto;
+}
+.w-60{
+    width: 60%;
+}
+.w-40{
+    width: 40%;
+}
+.w-80{
+    width: 80%;
+}
+.w-90{
+    width: 89%;
+}
+.min-vh-95{
+    min-height: 95vh;
+}
+#nicescroll-cursors{
+    display: none;
+    opacity: 0;
+}
+.form-check-input:checked{
+    background-color: #dc3545 !important;
+    border-color:#dc3545 !important ;
+}
+.form-check-input{
+    height: 20px !important;
+}
+.btn-check:focus + .btn, .btn:focus{
+    box-shadow: 0 0 !important;
+}
+.form-switch .form-check-input{
+    width: 35px !important;
+}
+.notification{
+    font-size: 9px;
+    right: -9px;
+    top: -5px;
+}
+.red-border{
+    width: 12px;
+    height: 6px;
+}
+textarea {
+    resize: none;
+    overflow: auto;
+}
+.input-file {
+    z-index: -1;
+    position: absolute;
+    opacity: 0;
+}
+.list-chat{
+    max-height: 300px;
+    height: 300px;
+}
+.overlay{
+    background: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+.logo-overlay{
+    z-index: 25;
+    top: 100px;
+}
+.icon-input{
+    margin: 13px 15px ;
+}
+.rounded-left-top{
+    border-top-left-radius: .3rem !important;
+    border-bottom-left-radius: .3rem !important;
+}
+.download{
+    background-image:url("../images/Rectangle 1492.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-muted-e{
+    color: #BEBEBE;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: unset !important;
+}
+.download p{
+    font-size: 10px;
+}
+@media (max-width: 768px) {
+    .list-left{
+        display: none;
+    }
+    .list-right{
+        display: none;
+    }
+    .all-w{
+        padding: 0 !important;
+    }
+    .main{
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .w-90{
+        width: 80%;
+    }
+    .w-80{
+       width: 70%;
+    }
+}
+.bg-dark-1{
+    background: #212529 !important;
+}
+.border-secondary-1{
+    border-color: rgba(60,60,60,0.64) !important;
+}
+.text-white-e{
+    color: #F0F0F0;
+}
+.text-white-1{
+    color: #F0F0F0 !important;
+}
+.bg-black-rgba{
+    background: rgba(0,0,0,0.7) !important;
+    color: #F0F0F0 !important;
+}

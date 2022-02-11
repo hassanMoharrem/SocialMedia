@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="theme-color" content="#000000"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--load all styles for font aswesome -->
+
+    <!-- My own style -->
+    <link href="assets/css/style.css" rel="stylesheet"/>
+
+    <title>Hello, world!</title>
+</head>
+<body>
+<nav class="navbar fixed-top navbar-light bg-white-rgba border-bottom">
+    <div class="row w-100 mx-2">
+        <div class="col-md-8 d-sm-block d-inline-block w-sm-auto m-auto">
+            <a class="navbar-brand align-middle m-0 d-inline-block" href="#">
+                <img src="assets/images/WhatsApp%20Image%202022-02-02%20at%202.29.2س1%20AM.jpeg" width="120px" alt="">
+            </a>
+            <div class="d-inline-block ms-3">
+                <form action="">
+                    <div class="position-relative">
+                        <input type="search" class="shadow-sm form-control py-0 bg-light form-control-sm ps-4"
+                               placeholder="search..">
+                        <small class="fas fa-search position-absolute start-0 mx-2 text-muted icon-search"></small>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4 text-right d-lg-block d-none w-lg-100 my-auto">
+            <a href="" class="pe-3 border-end"><i class="fas fa-map-marker-alt text-danger-e h5 mb-0 mx-2"></i>Map</a>
+            <a href="" class="mx-4 position-relative">
+                <i class="fas fa-comment-alt text-muted-e h6 mb-0"></i>
+                <small class="badge bg-danger-e lh-sm text-white rounded-circle notification position-absolute">5</small>
+            </a>
+            <a href="" class="me-2 position-relative">
+                <i class="fas fa-bell text-muted-e h6 mb-0"></i>
+                <small class="badge bg-danger-e lh-sm text-white rounded-circle notification position-absolute">5</small>
+            </a>
+            <div class="dropdown d-inline-block ms-3">
+                <img src="assets/images/logo.png" width="40px" height="40px"
+                     class="d-inline-block border rounded-circle bg-light" alt="">
+
+                <button class="btn h6 text-dark px-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                    Hassan Moh<small class="fas fa-chevron-down ms-2"></small>
+                </button>
+                <ul class="dropdown-menu border-0 shadow text-start" aria-labelledby="dropdownMenuButton1">
+                    <li class="px-2 pt-2 pb-2 border-bottom"><a class="dropdown-item" href="#"><h6
+                            class="p-2 bg-danger-e rounded-circle me-2 d-inline-block"><i
+                            class="fas fa-user p-1 text-white"></i></h6>My Profile</a></li>
+                    <li class="px-2 py-2 border-bottom">
+                        <a class="dropdown-item" href="#">
+                            <h6 class="d-inline-block mb-0 me-4">Dark Mood</h6>
+                            <div class="form-check form-switch d-inline-block align-middle">
+                                <input class="form-check-input dark" type="checkbox" id="flexSwitchCheckChecked">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="p-2">
+                        <a class="dropdown-item py-2" href="#"><h6 class="mb-0"><i class="fas fa-list h6 me-2 text-danger-e"></i>FAQs</h6></a>
+                        <a class="dropdown-item py-2" href="#"><h6 class="mb-0"><i class="fas fa-folder h6 me-2 text-danger-e"></i>Terms & Conditions</h6></a>
+                        <a class="dropdown-item py-2" href="#"><h6 class="mb-0"><i class="fas fa-info h6 me-3 ms-1 text-danger-e"></i>Privacy Policy</h6></a>
+                        <a class="dropdown-item py-2" href="#"><h6 class="mb-0"><i class="fas fa-question-circle h6 me-2 text-danger-e"></i>How to Use</h6></a>
+                        <a class="dropdown-item py-2" href="#"><h6 class="mb-0"><i class="fas fa-phone h6 me-2 text-danger-e"></i>How to Use</h6></a>
+                        <a class="dropdown-item py-2" href="#"><h6 class="mb-0"><i class="fas fa-ban h6 me-2 text-danger-e"></i>How to Use</h6></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</nav>
+<div class="d-flex py-3 px-5 mt-50 all-w">
+    <div id="left" class="list-left pb-5 sticky-top scroll-n">
+        <div class="rounded-2 p-3 border-2 border text-center bg-white shadow-sm">
+            <img src="assets/images/onlineedu-960x540-1.jpg" height="85px" width="85px"
+                 class="cover rounded-circle border shadow-sm" alt="">
+            <h5 class="my-2">Hassan Moh</h5>
+            <a href="" class="btn btn-sm btn-danger-e rounded-2 shadow-sm px-3">View Profile</a>
+            <div class="text-start mt-3">
+                <div class="pe-3 position-relative mb-2 border-bottom pb-1">
+                    <h5 class="mb-0"><i
+                            class="fas fa-user p-2 me-2 h6 shadow-sm border bg-light rounded-circle text-danger-e"></i>Friends
+                    </h5>
+                    <h6 class="position-absolute top-0 end-0 mt-2 mx-2 text-muted mb-0">525</h6>
+                </div>
+                <div class="pe-3 position-relative mb-2 border-bottom pb-1">
+                    <h5 class="mb-0"><i class="fas fa-user-friends p-2 me-2 h6 shadow-sm border bg-light rounded-circle text-danger-e"></i>Friends
+                    </h5>
+                    <h6 class="position-absolute top-0 end-0 mt-2 mx-2 text-muted mb-0">525</h6>
+                </div>
+                <div class="pe-3 position-relative mb-2 border-bottom pb-1">
+                    <h5 class="mb-0"><i
+                            class="fas fa-comment-alt p-2 me-2 h6 shadow-sm border bg-light rounded-circle text-danger-e"></i>Friends
+                    </h5>
+                    <h6 class="position-absolute top-0 end-0 mt-2 mx-2 text-muted mb-0">525</h6>
+                </div>
+                <div class="pe-3 position-relative mb-2 border-bottom pb-1">
+                    <h5 class="mb-0"><i
+                            class="fas fa-image p-2 me-2 h6 shadow-sm border bg-light rounded-circle text-danger-e"></i>Friends
+                    </h5>
+                    <h6 class="position-absolute top-0 end-0 mt-2 mx-2 text-muted mb-0">525</h6>
+                </div>
+                <div class="pe-3 position-relative mb-2 border-bottom pb-1">
+                    <h5 class="mb-0"><i
+                            class="fas fa-video p-2 me-2 h6 shadow-sm border bg-light rounded-circle text-danger-e"></i>Friends
+                    </h5>
+                    <h6 class="position-absolute top-0 end-0 mt-2 mx-2 text-muted mb-0">525</h6>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="download px-3 py-4 text-white rounded-2 my-2 shadow-sm text-center">
+            <img src="assets/images/logoWhite.png" width="w-75"  alt="">
+            <h6 class="mt-3 mb-1">DOWNLOAD RIDE TADAY</h6>
+            <p class="text-white mb-3">Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli csdcdcd.</p>
+            <a href="" class="rounded-3 border-2 border-white">
+                <img src="assets/images/googleplay.png" class="w-75" alt="">
+            </a>
+            <a href="" class="rounded-3 border-2 border-white">
+                <img src="assets/images/iosdownload.png" class="w-75 mt-2" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="mx-3">
+            <div class="position-relative px-3 py-2 border-2 border bg-white shadow-sm rounded-2">
+                <h5>Creat Post</h5>
+                <img src="assets/images/IMG_3915.JPG" width="50px" height="50px"
+                     class="cover rounded-circle bg-light inline-block border shadow-sm" alt="">
+                <div class="d-inline-block align-top w-90">
+                    <form action="">
+                        <textarea name="" placeholder="write something hear .." rows="1"
+                                  class="form-control"></textarea>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="text-left ps-2 mt-2 ">
+                                    <a href="" class="mx-1"><i class="fas fa-map-marker-alt text-muted h6 mb-0"></i></a>
+                                    <a href="" class="mx-1"><i class="fas fa-video text-muted h6 mb-0"></i></a>
+                                    <div id="file-upload-filename"
+                                         class="text-right text-truncate w-75 name-file-upload position-absolute"></div>
+                                    <label for="file-upload-communication-comments-create"
+                                           class="btn text-muted mb-0 p-0 mx-1"><i
+                                            class="fas fa-image text-muted h6"></i>
+                                    </label>
+                                    <input type="file" class="input-file start-0 file-upload-communication-comments-create"
+                                           id="file-upload-communication-comments-create" multiple required/>
+                                    <a href=""><i class="fas fa-camera h6 mb-0 mx-1 text-muted"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-6 text-end">
+                                <button type="submit" class="btn btn-danger-e btn-sm mt-2 px-4">Post</button>
+                            </div>
+                        </div>
+                        <div class="file-upload-filename-communication-comments-create mx-auto w-100 text-truncate"></div>
+                    </form>
+                </div>
+                <span class="bg-danger-e red-border position-absolute top-0 start-0 mt-3"></span>
+
+            </div>
+            <div class="content-posts mt-3">
+                <div class="border border-2 shadow-sm mt-2 p-3 bg-white rounded-2">
+                    <div class="border-bottom pb-2">
+                        <img src="assets/images/IMG_3915.JPG" height="50px" width="50px"
+                             class="cover rounded-circle bg-light border d-inline-block" alt="">
+                        <div class="w-75 d-inline-block align-top m-1">
+                            <h6 class="mb-0">Hassan Moh</h6>
+                            <small class="text-muted">30 Mine Ago</small>
+                        </div>
+                        <div class="mt-1">
+                            <p class="h6 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cum
+                                dolor, dolores dolorum eum exercitationem fugit .</p>
+                            <img src="assets/images/IMG_3915.JPG" height="250px" class="w-100 rounded-1 mt-2 cover"
+                                 alt="">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="ms-4 me-1 d-inline-block my-2">
+                                        <a href=""><img
+                                                src="assets/images/AdobeStock_145486039-scaled-e1586481744342.jpeg.optimal.jpeg"
+                                                height="35px" width="35px"
+                                                class="cover rounded-circle ms-n-2 border shadow-sm bg-light"
+                                                alt=""></a>
+                                        <a href=""><img src="assets/images/IMG_3915.JPG" height="35px" width="35px"
+                                                        class="cover rounded-circle ms-n-2 border shadow-sm bg-light"
+                                                        alt=""></a>
+                                        <a href=""><img src="assets/images/onlineedu-960x540-1.jpg" height="35px"
+                                                        width="35px"
+                                                        class="cover rounded-circle ms-n-2 border shadow-sm bg-light"
+                                                        alt=""></a>
+                                        <a href=""><img src="assets/images/logoderaa2.png" height="35px" width="35px"
+                                                        class="cover rounded-circle ms-n-2 border shadow-sm bg-light"
+                                                        alt=""></a>
+                                    </div>
+                                    <div class="d-inline-block align-middle w-60 lh-1">
+                                        <div class="mb-0 w-100 text-truncate ">
+                                            <h6 class="h6 mb-0 text-truncate d-inline-block fst-normal">Hassan Moh
+                                                ,</h6>
+                                            <h6 class="h6 mb-0 text-truncate d-inline-block fst-normal">Ahmad Moh</h6>
+                                        </div>
+                                        <small class="d-block text-muted my-0">and 30 more likes this .</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 my-auto">
+                                    <div class="row">
+                                        <div class="col-4 px-1 text-end">
+                                            <a href=""><i class="fas fa-heart text-muted"></i></a><span
+                                                class="text-muted ms-1">500</span>
+                                        </div>
+                                        <div class="col-4 px-1 text-center">
+                                            <a href=""><i class="fas fa-comment text-muted"></i></a><span
+                                                class="text-muted ms-1">100</span>
+                                        </div>
+                                        <div class="col-4 px-1">
+                                            <a href=""><i class="fas fa-share-alt text-muted"></i></a><span
+                                                class="text-muted ms-1">33</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comments mt-2">
+                        <div class="comment border-bottom pb-2 my-2">
+                            <img src="assets/images/IMG_3915.JPG" height="40" width="40px"
+                                 class="cover rounded-circle bg-light border d-inline-block" alt="">
+                            <div class="w-75 d-inline-block align-top m-1 lh-1">
+                                <h6 class="mb-0">Hassan Moh</h6>
+                                <small class="d-block text-muted">30 Mine Ago</small>
+                            </div>
+                            <div class="py-2 px-3">
+                                <p class="mb-0 h6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+                                    ducimus est iusto quis, quisquam repudiandae voluptatum.</p>
+                            </div>
+                        </div>
+                        <div class="comment border-bottom pb-2 my-2">
+                            <img src="assets/images/IMG_3915.JPG" height="40" width="40px"
+                                 class="cover rounded-circle bg-light border d-inline-block" alt="">
+                            <div class="w-75 d-inline-block align-top m-1 lh-1">
+                                <h6 class="mb-0">Hassan Moh</h6>
+                                <small class="d-block text-muted">30 Mine Ago</small>
+                            </div>
+                            <div class="py-2 px-3">
+                                <p class="mb-0 h6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="creat-comment ms-2">
+                            <form action="">
+                                <textarea style="height: 31px" placeholder="write a comment .."
+                                          class="form-control w-80 d-inline-block"></textarea>
+                                <div class="my-1 d-inline-block align-top">
+                                    <button type="submit" class="btn btn-danger-e px-4 ms-2 btn-sm align-middle">Post
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-posts mt-3">
+                <div class="border border-2 shadow-sm mt-2 p-3 bg-white rounded-2">
+                    <div class="border-bottom pb-2">
+                        <img src="assets/images/IMG_3915.JPG" height="50px" width="50px"
+                             class="cover rounded-circle bg-light border d-inline-block" alt="">
+                        <div class="w-75 d-inline-block align-top m-1">
+                            <h6 class="mb-0">Hassan Moh</h6>
+                            <small class="text-muted">30 Mine Ago</small>
+                        </div>
+                        <div class="mt-1">
+                            <p class="h6 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cum
+                                dolor, dolores dolorum eum exercitationem fugit .</p>
+                            <img src="assets/images/IMG_3915.JPG" height="250px" class="w-100 rounded-1 mt-2 cover"
+                                 alt="">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="ms-4 me-1 d-inline-block my-2">
+                                        <a href=""><img
+                                                src="assets/images/AdobeStock_145486039-scaled-e1586481744342.jpeg.optimal.jpeg"
+                                                height="35px" width="35px"
+                                                class="cover rounded-circle ms-n-2 border shadow-sm bg-light"
+                                                alt=""></a>
+                                        <a href=""><img src="assets/images/IMG_3915.JPG" height="35px" width="35px"
+                                                        class="cover rounded-circle ms-n-2 border shadow-sm bg-light"
+                                                        alt=""></a>
+                                        <a href=""><img src="assets/images/onlineedu-960x540-1.jpg" height="35px"
+                                                        width="35px"
+                                                        class="cover rounded-circle ms-n-2 border shadow-sm bg-light"
+                                                        alt=""></a>
+                                        <a href=""><img src="assets/images/logoderaa2.png" height="35px" width="35px"
+                                                        class="cover rounded-circle ms-n-2 border shadow-sm bg-light"
+                                                        alt=""></a>
+                                    </div>
+                                    <div class="d-inline-block align-middle w-60 lh-1">
+                                        <div class="mb-0 w-100 text-truncate ">
+                                            <h6 class="h6 mb-0 text-truncate d-inline-block fst-normal">Hassan Moh
+                                                ,</h6>
+                                            <h6 class="h6 mb-0 text-truncate d-inline-block fst-normal">Ahmad Moh</h6>
+                                        </div>
+                                        <small class="d-block text-muted my-0">and 30 more likes this .</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 my-auto">
+                                    <div class="row">
+                                        <div class="col-4 px-1 text-end">
+                                            <a href=""><i class="fas fa-heart text-muted"></i></a><span
+                                                class="text-muted ms-1">500</span>
+                                        </div>
+                                        <div class="col-4 px-1 text-center">
+                                            <a href=""><i class="fas fa-comment text-muted"></i></a><span
+                                                class="text-muted ms-1">100</span>
+                                        </div>
+                                        <div class="col-4 px-1">
+                                            <a href=""><i class="fas fa-share-alt text-muted"></i></a><span
+                                                class="text-muted ms-1">33</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comments mt-2">
+                        <div class="comment border-bottom pb-2 my-2">
+                            <img src="assets/images/IMG_3915.JPG" height="40" width="40px"
+                                 class="cover rounded-circle bg-light border d-inline-block" alt="">
+                            <div class="w-75 d-inline-block align-top m-1 lh-1">
+                                <h6 class="mb-0">Hassan Moh</h6>
+                                <small class="d-block text-muted">30 Mine Ago</small>
+                            </div>
+                            <div class="py-2 px-3">
+                                <p class="mb-0 h6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+                                    ducimus est iusto quis, quisquam repudiandae voluptatum.</p>
+                            </div>
+                        </div>
+                        <div class="comment border-bottom pb-2 my-2">
+                            <img src="assets/images/IMG_3915.JPG" height="40" width="40px"
+                                 class="cover rounded-circle bg-light border d-inline-block" alt="">
+                            <div class="w-75 d-inline-block align-top m-1 lh-1">
+                                <h6 class="mb-0">Hassan Moh</h6>
+                                <small class="d-block text-muted">30 Mine Ago</small>
+                            </div>
+                            <div class="py-2 px-3">
+                                <p class="mb-0 h6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="creat-comment ms-2">
+                            <form action="">
+                                <textarea style="height: 31px" placeholder="write a comment .."
+                                          class="form-control w-80 d-inline-block"></textarea>
+                                <div class="my-1 d-inline-block align-top">
+                                    <button type="submit" class="btn btn-danger-e px-4 ms-2 btn-sm align-middle">Post
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-posts mt-3">
+                <div class="border border-2 shadow-sm mt-2 p-3 bg-white rounded-2">
+                    <div class="border-bottom pb-2">
+                        <img src="assets/images/IMG_3915.JPG" height="50px" width="50px"
+                             class="cover rounded-circle bg-light border d-inline-block" alt="">
+                        <div class="w-75 d-inline-block align-top m-1">
+                            <h6 class="mb-0">Hassan Moh</h6>
+                            <small class="text-muted">30 Mine Ago</small>
+                        </div>
+                        <div class="mt-1">
+                            <p class="h6 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cum
+                                dolor, dolores dolorum eum exercitationem fugit .</p>
+                            <img src="assets/images/IMG_3915.JPG" height="250px" class="w-100 rounded-1 mt-2 cover"
+                                 alt="">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="ms-4 me-1 d-inline-block my-2">
+                                        <a href="">
+                                            <img
+                                                src="assets/images/AdobeStock_145486039-scaled-e1586481744342.jpeg.optimal.jpeg"
+                                                height="35px" width="35px"
+                                                class="cover rounded-circle ms-n-2 border shadow-sm bg-light"
+                                                alt="">
+                                        </a>
+                                        <a href=""><img src="assets/images/IMG_3915.JPG" height="35px" width="35px"
+                                                        class="cover rounded-circle ms-n-2 border shadow-sm bg-light"
+                                                        alt=""></a>
+                                        <a href=""><img src="assets/images/onlineedu-960x540-1.jpg" height="35px"
+                                                        width="35px"
+                                                        class="cover rounded-circle ms-n-2 border shadow-sm bg-light"
+                                                        alt=""></a>
+                                        <a href=""><img src="assets/images/logoderaa2.png" height="35px" width="35px"
+                                                        class="cover rounded-circle ms-n-2 border shadow-sm bg-light"
+                                                        alt=""></a>
+                                    </div>
+                                    <div class="d-inline-block align-middle  lh-1">
+                                        <div class="mb-0 w-100 text-truncate ">
+                                            <h6 class="h6 mb-0 text-truncate d-inline-block fst-normal">Hassan Moh
+                                                ,</h6>
+                                            <h6 class="h6 mb-0 text-truncate d-inline-block fst-normal">Ahmad Moh</h6>
+                                        </div>
+                                        <small class="d-block text-muted my-0">and 30 more likes this .</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 my-auto">
+                                    <div class="row">
+                                        <div class="col-4 px-1 text-end">
+                                            <a href=""><i class="fas fa-heart text-muted"></i></a><span
+                                                class="text-muted ms-1">500</span>
+                                        </div>
+                                        <div class="col-4 px-1 text-center">
+                                            <a href=""><i class="fas fa-comment text-muted"></i></a><span
+                                                class="text-muted ms-1">100</span>
+                                        </div>
+                                        <div class="col-4 px-1">
+                                            <a href=""><i class="fas fa-share-alt text-muted"></i></a><span
+                                                class="text-muted ms-1">33</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comments mt-2">
+                        <div class="comment border-bottom pb-2 my-2">
+                            <img src="assets/images/IMG_3915.JPG" height="40" width="40px"
+                                 class="cover rounded-circle bg-light border d-inline-block" alt="">
+                            <div class="w-75 d-inline-block align-top m-1 lh-1">
+                                <h6 class="mb-0">Hassan Moh</h6>
+                                <small class="d-block text-muted">30 Mine Ago</small>
+                            </div>
+                            <div class="py-2 px-3">
+                                <p class="mb-0 h6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+                                    ducimus est iusto quis, quisquam repudiandae voluptatum.</p>
+                            </div>
+                        </div>
+                        <div class="comment border-bottom pb-2 my-2">
+                            <img src="assets/images/IMG_3915.JPG" height="40" width="40px"
+                                 class="cover rounded-circle bg-light border d-inline-block" alt="">
+                            <div class="w-75 d-inline-block align-top m-1 lh-1">
+                                <h6 class="mb-0">Hassan Moh</h6>
+                                <small class="d-block text-muted">30 Mine Ago</small>
+                            </div>
+                            <div class="py-2 px-3">
+                                <p class="mb-0 h6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="creat-comment ms-2">
+                            <form action="">
+                                <textarea style="height: 31px" placeholder="write a comment .."
+                                          class="form-control w-80 d-inline-block"></textarea>
+                                <div class="my-1 d-inline-block align-top">
+                                    <button type="submit" class="btn btn-danger-e px-4 ms-2 btn-sm align-middle">Post
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="list-right sticky-top scroll-n">
+        <div class="rounded-2 p-3  border text-center bg-white shadow-sm">
+            <img src="assets/images/onlineedu-960x540-1.jpg" height="85px" width="85px"
+                 class="cover rounded-circle border shadow-sm" alt="">
+            <h5 class="my-2">Hassan Moh</h5>
+            <a href="" class="btn btn-sm btn-danger-e rounded-2 shadow-sm px-3">View Profile</a>
+        </div>
+        <div class="bg-white py-3 ps-4 pe-2  border rounded-2 my-2 shadow-sm">
+            <h6 class="text-muted mb-3">FRIEND REQUESTS</h6>
+            <div class="pe-3 position-relative mb-2 border-bottom pb-2">
+                <a href="">
+                    <img src="assets/images/logoderaa2.png" height="40px" width="40px"
+                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                    <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
+                </a>
+                <div class="text-end">
+                    <a href="" class="btn btn-danger-e px-2 btn-sm">ACCEPT</a>
+                    <a href="" class="btn btn-sm py-0 px-1 rounded-circle bg-dark text-white"><span class="fas fa-times lh-base"></span></a>
+                </div>
+            </div>
+            <div class="pe-3 position-relative mb-2 border-bottom pb-2">
+                <a href="">
+                    <img src="assets/images/logoderaa2.png" height="40px" width="40px"
+                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                    <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
+                </a>
+                <div class="text-end">
+                    <a href="" class="btn btn-danger-e px-2 btn-sm rounded-3">ACCEPT</a>
+                    <a href="" class="btn btn-sm py-0 px-1 rounded-circle bg-dark text-white"><span class="fas fa-times lh-base"></span></a>
+                </div>
+            </div>
+            <div class="pe-3 position-relative mb-2 border-bottom pb-2">
+                <a href="">
+                    <img src="assets/images/logoderaa2.png" height="40px" width="40px"
+                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                    <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
+                </a>
+                <div class="text-end">
+                    <a href="" class="btn btn-danger-e px-2 btn-sm rounded-3">ACCEPT</a>
+                    <a href="" class="btn btn-sm py-0 px-1 rounded-circle bg-dark text-white"><span class="fas fa-times lh-base"></span></a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="bg-white py-3 ps-4 pe-2  border rounded-2 my-2 shadow-sm">
+            <h6 class="text-muted mb-3">MY FRIENDS</h6>
+            <div class="pe-3 position-relative mb-2 border-bottom pb-2">
+                <a href="">
+                    <img src="assets/images/logoderaa2.png" height="35px" width="35px"
+                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                    <h5 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h5>
+                </a>
+            </div>
+            <div class="pe-3 position-relative mb-2 border-bottom pb-2">
+                <a href="">
+                    <img src="assets/images/logoderaa2.png" height="35px" width="35px"
+                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                    <h5 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h5>
+                </a>
+            </div>
+            <div class="pe-3 position-relative mb-2 border-bottom pb-2">
+                <a href="">
+                    <img src="assets/images/logoderaa2.png" height="35px" width="35px"
+                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                    <h5 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h5>
+                </a>
+            </div>
+            <div class="pe-3 position-relative mb-2 border-bottom pb-2">
+                <a href="">
+                    <img src="assets/images/logoderaa2.png" height="35px" width="35px"
+                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                    <h5 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h5>
+                </a>
+            </div>
+            <div class="pe-3 position-relative mb-2 border-bottom pb-2">
+                <a href="">
+                    <img src="assets/images/logoderaa2.png" height="35px" width="35px"
+                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                    <h5 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h5>
+                </a>
+            </div>
+            <div class="pe-3 position-relative mb-2 border-bottom pb-2">
+                <a href="">
+                    <img src="assets/images/logoderaa2.png" height="35px" width="35px"
+                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                    <h5 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h5>
+                </a>
+            </div>
+            <div class="pe-3 position-relative mb-2 border-bottom pb-2">
+                <a href="">
+                    <img src="assets/images/logoderaa2.png" height="35px" width="35px"
+                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                    <h5 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h5>
+                </a>
+            </div>
+            <div class="pe-3 position-relative mb-2 border-bottom pb-2">
+                <a href="">
+                    <img src="assets/images/logoderaa2.png" height="35px" width="35px"
+                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                    <h5 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"
+        integrity="sha512-zMfrMAZYAlNClPKjN+JMuslK/B6sPM09BGvrWlW+cymmPmsUT1xJF3P4kxI3lOh9zypakSgWaTpY6vDJY/3Dig=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $(".scroll-n").niceScroll({
+        cursoropacitymin: 0,
+        cursorwidth: "0px",
+        cursorborder: "0px",
+        touchbehavior: true,
+        autohidemode: "hidden",
+    });
+
+</script>
+<script>
+    $("#file-upload-communication-comments-create").change(function () {
+        var leafname = $(this).val().split('\\').pop().split('/').pop();
+        $('.file-upload-filename-communication-comments-create').text(leafname);
+    });
+    $('input#flexSwitchCheckChecked').click(function () {
+        if($(this).prop("checked") === true){
+            $('body').addClass('bg-dark text-white-e');
+            $('.sidebar, .navbar-light').addClass('border-secondary');
+            $('.navbar-brand').addClass('text-white');
+            $('.bg-white, .bg-light, .when-hover .active').addClass('bg-dark-1');
+            $('.text-dark').addClass('text-white-1');
+            $('.border-white, .border').addClass('border-secondary-1');
+            $('.border-top').addClass('border-top border-secondary-1');
+            $('.border-2').addClass('border-2 border-secondary-1');
+            $('.bg-white-rgba').addClass('bg-black-rgba');
+            $('textarea').addClass('bg-dark-1 border-secondary-1');
+            $('.dropdown-menu ').addClass('bg-dark-1 border-secondary-1 text-white-1');
+            $('.dropdown-item ').addClass('text-white-1');
+            $('a').addClass('text-white-1');
+            $('input').addClass('border-secondary-1');
+            $('footer').addClass('text-white');
+        }else{
+            $('body').removeClass('bg-dark text-white-e');
+            $('.sidebar, .navbar-light').removeClass('border-secondary');
+            $('.navbar-brand').removeClass('text-white');
+            $('.bg-white, .bg-light, .when-hover .active').removeClass('bg-dark-1');
+            $('.text-dark').removeClass('text-white-1');
+            $('.border-white, .border').removeClass('border-secondary-1');
+            $('.border-top').removeClass('border-top border-secondary-1');
+            $('.border-2').removeClass('border-2 border-secondary-1');
+            $('.bg-white-rgba').removeClass('bg-black-rgba');
+            $('textarea').removeClass('bg-dark-1 border-secondary-1');
+            $('.dropdown-menu ').removeClass('bg-dark-1 border-secondary-1 text-white-1');
+            $('.dropdown-item ').removeClass('text-white-1');
+            $('a ').removeClass('text-white-1');
+            $('input').removeClass('border-secondary-1');
+            $('footer').removeClass('text-white');
+        }
+
+    })
+
+</script>
+
+</body>
+
+</html>
