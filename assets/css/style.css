@@ -50,15 +50,15 @@ a {
     object-fit: cover;
 }
 .list-left {
-    max-width: 250px;
-    width: 250px;
+    max-width: 21%;
+    width: 21%;
     overflow-x: hidden;
     min-height: 100vh;
     height: calc(100vh - 80px);
 }
 .list-right {
-    max-width: 250px;
-    width: 250px;
+    max-width: 21%;
+    width: 21%;
     overflow-x: hidden;
     min-height: 100vh;
     height: calc(100vh - 80px);
@@ -74,7 +74,7 @@ a {
     margin-left: -20px;
 }
 .main{
-    width: 730px;
+    width: 55%;
     margin: 0 auto;
 }
 .w-60{
