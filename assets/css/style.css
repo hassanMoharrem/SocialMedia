@@ -163,6 +163,9 @@ textarea {
 .margin-nigative-btn , .margin-nigative-btn-1{
     top: 50px;
 }
+.d-lg-inline-block{
+    display: inline-block;
+}
 
 @media (max-width: 990px) {
     .list-left{
@@ -193,13 +196,16 @@ textarea {
     .w-80{
        width: 70%;
     }
+    .w-sm-auto{
+        width: auto !important;
+    }
+
     .margin-nigative{
         display: block !important;
         opacity: 1;
         position: fixed;
         overflow: auto;
         height: 100%;
-        background: white;
         width: 100% !important;
         top: 65px;
         z-index: 1000;
@@ -211,12 +217,19 @@ textarea {
         position: fixed;
         overflow: auto;
         height: 100%;
-        background: white;
         width: 100% !important;
         top: 65px;
         z-index: 1000;
         right: 0;
         transition: ease 2s;
+    }
+    .dropdown-menu[data-bs-popper]{
+        left: auto !important;
+        right: 0 !important;
+    }
+    .mx-sm-auto{
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 }
 .bg-dark-1{
