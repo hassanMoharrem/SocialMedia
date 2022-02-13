@@ -81,6 +81,9 @@
 
         </div>
     </div>
+    <button type="button" class="margin-nigative-btn btn btn-light btn-sm border rounded-circle position-absolute  start-0"><i class="fas fa-arrow-right"></i></button>
+    <button type="button" class="margin-nigative-btn-1 btn btn-light btn-sm border rounded-circle position-absolute end-0"><i class="fas fa-arrow-left"></i></button>
+
 </nav>
 <div class="d-flex py-3 px-5 mt-50 all-w">
     <div id="left" class="list-left pb-5 sticky-top scroll-n">
@@ -604,6 +607,26 @@
         touchbehavior: true,
         autohidemode: "hidden",
     });
+    $(document).ready(function () {
+        $('.margin-nigative-btn').on('click', function () {
+            if ($(".margin-nigative-1")[0]){
+                $('.list-right').removeClass('margin-nigative-1');
+                $('.list-left').toggleClass('margin-nigative');
+            }else {
+                $('.list-left').toggleClass('margin-nigative');
+            }
+
+        });
+        $('.margin-nigative-btn-1').on('click', function () {
+            if ($(".margin-nigative")[0]){
+                $('.list-left').removeClass('margin-nigative');
+                $('.list-right').toggleClass('margin-nigative-1');
+            } else {
+                $('.list-right').toggleClass('margin-nigative-1');
+            }
+        });
+    });
+
 
 </script>
 <script>
