@@ -43,6 +43,7 @@ a {
     background: rgba(255,255,255,0.7);
 }
 .all-w{
+    max-width:1240px;
     width: 100%;
     margin: 0 auto;
 }
@@ -50,15 +51,15 @@ a {
     object-fit: cover;
 }
 .list-left {
-    max-width: 21%;
-    width: 21%;
+    max-width: 260px;
+    width: 260px;
     overflow-x: hidden;
     min-height: 100vh;
     height: calc(100vh - 80px);
 }
 .list-right {
-    max-width: 21%;
-    width: 21%;
+    max-width: 260px;
+    width: 260px;
     overflow-x: hidden;
     min-height: 100vh;
     height: calc(100vh - 80px);
@@ -74,7 +75,7 @@ a {
     margin-left: -20px;
 }
 .main{
-    width: 55%;
+    width: 730px;
     margin: 0 auto;
 }
 .w-60{
