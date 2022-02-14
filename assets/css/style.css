@@ -236,6 +236,9 @@ textarea {
         margin-left: auto !important;
         margin-right: auto !important;
     }
+    .rounded-left-top{
+        border-radius: 0 !important;
+    }
 }
 .bg-dark-1{
     background: #212529 !important;
