@@ -61,7 +61,7 @@ a {
     max-width: 270px;
     width: 270px;
     top: 60px;
-    padding-top: 15px;
+    padding-top: 10px;
     overflow-x: hidden;
     height: calc(100vh - 70px);
 }
@@ -71,7 +71,7 @@ a {
     top: 60px;
     overflow-x: hidden;
     height: calc(100vh - 70px);
-    padding-top: 15px;
+    padding-top: 10px;
 
 }
 .icon-search{
@@ -87,7 +87,7 @@ a {
 .main{
     width: 55%;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .w-60{
     width: 60%;
@@ -190,7 +190,7 @@ textarea {
     font-size: 13px !important;
 }
 .btn-size-2{
-    font-size: 13px !important;
+    font-size: 12px !important;
 }
 .btn-2-8{
     padding: 2px 8px !important;
@@ -282,6 +282,9 @@ textarea {
     .left-150{
         left: 0px !important;
     }
+    .mb-sm-2{
+        margin-bottom: 20px;
+    }
 }
 .bg-dark-1{
     background: #2E2E2E !important;
@@ -349,4 +352,34 @@ textarea {
 }
 .box-sh{
     box-shadow: 0 3px 7px rgba(222,222,222,0.71);
+}
+.color-car:hover{
+    transition: ease 0.5s;
+border: 2px solid #ED1C24 !important;
+}
+.car-active{
+    transition: ease 0.5s;
+    border: 2px solid #ED1C24 !important;
+}
+.profile-nav:hover{
+    transition: ease 0.5s;
+    color: #ED1C24 !important;
+}
+.profile-nav a:hover{
+    transition: ease 0.5s;
+    color: #ED1C24 !important;
+}
+.active{
+    color: #ED1C24 !important;
+}
+.active a{
+    color: #ED1C24 !important;
+
+}
+.img-car-active{
+    transition: ease 0.5s;
+    border: 2px solid #ED1C24 !important;
+}
+.m-23{
+    margin: 10px 80px;
 }
