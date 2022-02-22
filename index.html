@@ -887,7 +887,7 @@
                             class="fas fa-user-plus me-1"></i>Add frind</a>
                 </div>
             </div>
-            <div class="modal-footer text-center bg-white border-0 pt-1">
+            <div class="modal-footer bg-white text-center border-0 pt-1">
                 <a href="" class="btn btn-danger-e btn-size-2 btn-sm mx-auto px-3">View Profile</a>
             </div>
         </div>
@@ -952,41 +952,10 @@
     });
     $('input#flexSwitchCheckChecked').click(function () {
         if ($(this).prop("checked") === true) {
-            $('body').addClass('bg-dark text-white-e');
-            $('.sidebar, .navbar-light').addClass('border-secondary');
-            $('.navbar-brand').addClass('text-white');
-            $('.bg-white, .bg-light, .when-hover .active').addClass('bg-dark-1');
-            $('.text-dark').addClass('text-white-1');
-            $('.border-white, .border').addClass('border-secondary-1');
-            $('.border-top').addClass('border-top border-secondary-1');
-            $('.border-2').addClass('border-2 border-secondary-1');
-            $('.bg-white-rgba').addClass('bg-black-rgba');
-            $('textarea').addClass('bg-dark-1 border-secondary-1');
-            $('.dropdown-menu ').addClass('bg-dark-1 border-secondary-1 text-white-1');
-            $('.dropdown-item ').addClass('text-white-1 dropdown-item-1');
-            $('.drop-notification ').addClass('drop-notification-1');
-            $('a').addClass('text-white-1');
-            $('input').addClass('border-secondary-1');
-            $('footer').addClass('text-white');
+            $('body').addClass('dark-theme');
         } else {
-            $('body').removeClass('bg-dark text-white-e');
-            $('.sidebar, .navbar-light').removeClass('border-secondary');
-            $('.navbar-brand').removeClass('text-white');
-            $('.bg-white, .bg-light, .when-hover .active').removeClass('bg-dark-1');
-            $('.text-dark').removeClass('text-white-1');
-            $('.border-white, .border').removeClass('border-secondary-1');
-            $('.border-top').removeClass('border-top border-secondary-1');
-            $('.border-2').removeClass('border-2 border-secondary-1');
-            $('.bg-white-rgba').removeClass('bg-black-rgba');
-            $('textarea').removeClass('bg-dark-1 border-secondary-1');
-            $('.dropdown-menu ').removeClass('bg-dark-1 border-secondary-1 text-white-1');
-            $('.dropdown-item ').removeClass('text-white-1 dropdown-item-1');
-            $('.drop-notification ').removeClass('drop-notification-1');
-            $('a ').removeClass('text-white-1');
-            $('input').removeClass('border-secondary-1');
-            $('footer').removeClass('text-white');
+            $('body').removeClass('dark-theme');
         }
-
     })
 
 </script>
