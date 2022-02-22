@@ -515,14 +515,6 @@ textarea {
     margin: 10px 80px;
 }
 
-.dropdown-item-1:hover {
-    background-color: #000000 !important;
-}
-
-.drop-notification-1 li:hover {
-    background-color: #000000 !important;
-}
-
 .border {
     border-color: #E9E9E9 !important;
 }
@@ -598,7 +590,7 @@ input {
 }
 
 .border-white-1 {
-    border-color: #000000 !important;
+    border-color: #212121 !important;
 }
 
 .chat {
@@ -623,4 +615,37 @@ input {
 .badge{
     padding: .25em .40em !important;
     font-weight:400 !important;
+}
+.dark-theme{
+    background-color: #000000 !important ;
+    color: #F0F0F0 !important;
+}
+.dark-theme .navbar-light , .dark-theme .border-bottom{
+    border-color: #212121 !important;
+}
+.dark-theme .navbar-brand{
+    color: #F0F0F0 !important;
+}
+.dark-theme .bg-white , .dark-theme .bg-light , .dark-theme .when-hover , .dark-theme .active{
+    background: #2E2E2E !important;
+}
+.dark-theme .text-dark{
+    color: #F0F0F0 !important;
+}
+.dark-theme .border-white, .dark-theme .border , .dark-theme .border-top , .dark-theme .border-2{
+    border-color: #2E2E2E !important;
+}
+.dark-theme textarea , .dark-theme .dropdown-menu , .dark-theme .form-control{
+    background: #212121 !important;
+    border-color: #7E7E7E !important;
+    color: #F0F0F0 !important;
+}
+.dark-theme .dropdown-item , .dark-theme a , .dark-theme footer{
+    color: #F0F0F0 !important;
+}
+.dark-theme .dropdown-item:hover{
+    background-color: #262626 !important;
+}
+.dark-theme .drop-notification li:hover{
+    background-color: #262626 !important;
 }
