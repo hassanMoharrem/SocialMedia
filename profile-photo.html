@@ -34,34 +34,43 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-md-8 mt-4">
-            <div class="bg-white shadow rounded-3 position-relative">
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="position-relative">
-                            <div class="overlay rounded-left-top w-100 h-100 position-absolute top-0 start-0"></div>
-                            <img src="assets/images/IMG_3915.JPG" class="w-100 cover rounded-left-top" height="350px" alt="">
-                            <div class="w-100 mx-auto position-absolute logo-overlay text-center">
-                                <img src="assets/images/logo-white.png" class="w-75" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-7 my-auto">
-                        <div class="row justify-content-center">
-                            <div class="col-md-8 mx-3">
-                                <div class="px-2 pb-5 pt-3 text-center">
-                                    <h4 class="mb-1">Welcome, Adam</h4>
-                                    <small class="text-muted">You’re all signed up, now let’s get you customized and on your first adventure</small>
-                                    <a href="" class="btn btn-danger-e mt-3 btn-size-2">CUSTOMIZE YOUR PROFILE</a>
-                                </div>
+            <div class="bg-white shadow rounded-3 position-relative p-4">
+                <div class="text-start">
+                    <small class="text-muted">Profile Photo</small>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 py-3">
+                        <div class="my-4 text-center">
+                            <div id="file-upload-filename"
+                                 class="text-right text-truncate w-75 name-file-upload position-absolute"></div>
+                            <label for="file-upload-communication-comments-create"
+                                   class="btn text-muted mb-0 mx-auto position-relative rounded-circle p-0 bg-light"><i
+                                    class="fas fa-image text-muted p-5 bg-light rounded-circle h1 mb-0"></i>
+                            <i class="fas fa-plus p-2 rounded-circle btn-danger-e btn-size-2 position-absolute top-0 start-0"></i>
+                            </label>
+                            <small class="text-muted d-block py-3 btn-size-2">Click to Add Your Profile Image</small>
 
-                            </div>
-
+                            <input type="file" class="input-file start-0 file-upload-communication-comments-create"
+                                   id="file-upload-communication-comments-create" multiple required/>
+                            <div class="file-upload-filename-communication-comments-create mx-auto w-100 text-truncate"></div>
                         </div>
                     </div>
                 </div>
-                <div class="text-end position-absolute m-3 end-0 bottom-0">
-                    <a href="">SKIP <i class="fas fa-arrow-right text-muted ms-1"></i></a>
+                <div class="row mt-2">
+                    <div class="col-4 text-start">
+                        <a href=""> <i class="fas fa-arrow-left text-muted me-1"></i>Back</a>
+                    </div>
+                    <div class="col-4 text-center">
+                        <div class="dote d-inline-block bg-danger-e rounded-circle mx-1"></div>
+                        <div class="dote d-inline-block bg-muted-e rounded-circle mx-1"></div>
+                        <div class="dote d-inline-block bg-muted-e rounded-circle mx-1"></div>
+                    </div>
+                    <div class="col-4 text-end">
+                        <a href="" class="text-danger-e px-2 btn-size-2">Next<i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+
                 </div>
+
             </div>
         </div>
     </div>

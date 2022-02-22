@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="theme-color" content="#000000"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--load all styles for font aswesome -->
+
+    <!-- My own style -->
+    <link href="assets/css/style.css" rel="stylesheet"/>
+
+    <title>Hello, world!</title>
+</head>
+<body>
+<div class="container min-vh-95">
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="navbar navbar-light ">
+                <a class="navbar-brand align-middle mt-3 d-inline-block" href="#">
+                    <img src="assets/images/logo.png" width="140px" alt="">
+                </a>
+            </nav>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-8 mt-4 mb-2">
+            <div class="bg-white shadow rounded-3 position-relative p-4">
+                <div class="row">
+                    <div class="col-md-4 border-end text-center">
+                        <small class="text-muted"><span class="text-dark mx-1">1</span> Profile Photo</small>
+                        <div class="my-4">
+                            <div id="file-upload-filename"
+                                 class="text-right text-truncate w-75 name-file-upload position-absolute"></div>
+                            <label for="file-upload-communication-comments-create"
+                                   class="btn text-muted mb-0 mx-auto position-relative"><i
+                                    class="fas fa-image text-muted p-5 bg-light rounded-circle h1 mb-0"></i>
+                                <small class="text-muted d-block py-3 btn-size-2">Click to Add Your Profile
+                                    Image</small>
+                                <img src="assets/images/Group%20809.png" width="60px" height="60px"
+                                     class="rounded-circle cover bg-light mx-auto p-1" alt="">
+                            </label>
+                            <input type="file" class="input-file start-0 file-upload-communication-comments-create"
+                                   id="file-upload-communication-comments-create" multiple required/>
+                            <div class="file-upload-filename-communication-comments-create mx-auto w-100 text-truncate"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 border-end text-center">
+                        <small class="text-muted"><span class="text-dark mx-1">2</span> Choose Vehicle</small>
+                        <div class="my-4">
+                            <img src="assets/images/RT-UTV-Blue-Available.png" height="75px" width="75px"
+                                            class="d-block mb-2 mx-auto all-car rounded-circle p-1 border border-2  btn img-car-active img-car"
+                                            alt="">
+                            <img src="assets/images/Group%20808.png" height="75px" width="75px"
+                                            class="d-block mb-2 mx-auto all-car rounded-circle p-1 border border-2 btn img-car"
+                                            alt="">
+                            <img src="assets/images/Group%20809.png" height="75px" width="75px"
+                                            class="d-block mb-2 mx-auto all-car rounded-circle p-1 border border-2 btn img-car"
+                                            alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <small class="text-muted"><span class="text-dark mx-1">3</span> Choose Color</small>
+                        <div class="my-4">
+                            <div class="d-flex mb-1 justify-content-center">
+                                <div class="mx-1 text-end">
+                                    <div class="btn color-car mx-auto car-blue rounded-circle border border-2 car-active"></div>
+                                </div>
+                                <div class="mx-1 text-start">
+                                    <div class="btn color-car mx-auto car-black rounded-circle border border-2"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-1 justify-content-center">
+                                <div class="mx-1 text-end">
+                                    <div class="btn color-car mx-auto car-sky rounded-circle border border-2"></div>
+                                </div>
+                                <div class="mx-1 text-start">
+                                    <div class="btn color-car mx-auto car-mouse rounded-circle border border-2"></div>
+
+                                </div>
+                            </div>
+                            <div class="d-flex mb-1 justify-content-center">
+                                <div class="mx-1 text-end">
+                                    <div class="btn color-car mx-auto car-orange rounded-circle border border-2"></div>
+                                </div>
+                                <div class="mx-1 text-start">
+                                    <div class="btn color-car mx-auto car-move rounded-circle border border-2"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-1 justify-content-center">
+                                <div class="mx-1 text-end">
+                                    <div class="btn color-car mx-auto car-red rounded-circle border border-2"></div>
+                                </div>
+                                <div class="mx-1 text-start">
+                                    <div class="btn color-car mx-auto car-warning rounded-circle border border-2"></div>
+
+                                </div>
+                            </div>
+                            <div class="d-flex mb-1 justify-content-center">
+                                <div class="mx-1 text-end">
+                                    <div class="btn color-car mx-auto car-green rounded-circle border border-2"></div>
+                                </div>
+                                <div class="mx-1 text-start">
+                                    <div class="btn color-car mx-auto bg-white rounded-circle border border-2"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-6 text-start">
+                        <a href=""> <i class="fas fa-arrow-left text-muted me-1"></i>SKIP</a>
+                    </div>
+                    <div class="col-6 text-end">
+                        <a href="" class="btn btn-danger-e px-3 btn-sm btn-size-2  ">Finish <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="text-center text-muted">
+    <h6>© Ride Traxx 2022. All rights reserved.</h6>
+</footer>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $('.color-car').on('click', function () {
+                $('.color-car').removeClass('car-active');
+                $(this).addClass('car-active');
+        })
+        $('.img-car').on('click', function () {
+                $('.img-car').removeClass('img-car-active');
+                $(this).addClass('img-car-active');
+        })
+    })
+
+</script>
+</body>
+
+</html>

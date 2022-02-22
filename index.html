@@ -22,7 +22,7 @@
     <title>Hello, world!</title>
 </head>
 <body>
-<nav class="navbar fixed-top navbar-light bg-white border-bottom">
+<nav class="navbar fixed-top navbar-light bg-white py-1 border-bottom">
     <div class="row w-1250 mx-auto">
         <div class="col-md-8 d-inline-block w-sm-auto my-auto">
             <a class="navbar-brand align-middle m-0 d-inline-block" href="#">
@@ -31,22 +31,22 @@
             <div class="d-lg-inline-block d-none ms-3">
                 <form action="">
                     <div class="position-relative">
-                        <input type="search" class="shadow-sm form-control py-0 bg-light form-control-sm ps-4"
+                        <input type="search" class="form-control py-0 bg-light form-control-sm ps-4"
                                placeholder="search..">
                         <small class="fas fa-search position-absolute start-0 mx-2 text-muted icon-search"></small>
                     </div>
                 </form>
             </div>
         </div>
-        <div class="col-md-4 text-right d-lg-block d-inline-block w-lg-100 w-sm-auto my-auto mx-sm-auto">
+        <div class="col-md-4 text-right d-lg-block d-inline-block w-lg-100 w-sm-auto my-auto ms-sm-auto">
             <a href="" class="pe-3 border-end d-none d-lg-inline-block"><i
                     class="fas fa-map-marker-alt text-danger-e h5 mb-0 mx-2"></i>Map</a>
             <div class="dropdown d-inline-block ms-1">
                 <button class="btn mx-0 position-relative" type="button" id="dropdownMenuButton3"
                         data-bs-toggle="dropdown"
                         aria-expanded="false">
-                    <i class="fas fa-comment-alt text-muted-e h6 mb-0"></i>
-                    <small class="badge bg-danger-e lh-sm text-white rounded-circle notification position-absolute">5</small>
+                    <i class="fas fa-comment-alt text-icon h6 mb-0"></i>
+                    <span class="position-absolute top-0 end-0 font-12 badge bg-danger-e rounded-circle">5</span>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-1 scroll-chat drop-notification border-0 shadow text-start"
                     aria-labelledby="dropdownMenuButton2">
@@ -119,8 +119,8 @@
                 <button class="btn mx-0 position-relative" type="button" id="dropdownMenuButton2"
                         data-bs-toggle="dropdown"
                         aria-expanded="false">
-                    <i class="fas fa-bell text-muted-e h6 mb-0"></i>
-                    <small class="badge bg-danger-e lh-sm text-white rounded-circle notification position-absolute">5</small>
+                    <i class="fas fa-bell text-icon h6 mb-0"></i>
+                    <small class="position-absolute top-0 end-0 font-12 badge bg-danger-e rounded-circle">5</small>
                 </button>
                 <ul class="dropdown-menu drop-notification scroll-chat border-0 shadow text-start"
                     aria-labelledby="dropdownMenuButton2">
@@ -194,8 +194,8 @@
 
                 <button class="btn h6 text-dark px-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                    <span class="d-none d-lg-inline-block text-dark">Hassan Moh</span><small
-                        class="fas fa-chevron-down text-dark ms-2"></small>
+                    <span class="d-none d-lg-inline-block text-dark fst-normal">Hassan Moh</span><small
+                        class="fas fa-chevron-down text-muted ms-2"></small>
                 </button>
                 <ul class="dropdown-menu border-0 shadow text-start" aria-labelledby="dropdownMenuButton1">
                     <li class="px-2 pt-2 pb-2 border-bottom"><a class="dropdown-item" href="#"><h6
@@ -238,11 +238,11 @@
         <i class="fas fa-arrow-left"></i></button>
 
 </nav>
-<div class="d-flex py-2 px-5 mt-50 all-w">
+<div class="d-flex pb-2 pt-0 px-5 mt-50 all-w">
     <div id="left" class="list-left pb-5 sticky-top scroll-n">
-        <div class="rounded-2 p-3  text-center bg-white mb-2 box-sh">
-            <img src="assets/images/onlineedu-960x540-1.jpg" height="85px" width="85px"
-                 class="cover rounded-circle border shadow-sm" alt="">
+        <div class="rounded-2 px-3 pt-4 pb-2 text-center bg-white mb-3 box-sh ">
+            <img src="assets/images/IMG_3915.JPG" height="100px" width="100px"
+                 class="cover rounded-circle border border-2" alt="">
             <h5 class="my-2">Hassan Moh</h5>
             <a href="" class="btn btn-sm btn-danger-e btn-size-2 rounded-2 shadow-sm px-3">View Profile</a>
             <div class="text-start mt-3">
@@ -274,7 +274,7 @@
             </div>
 
         </div>
-        <div class="download py-4 text-white rounded-2 text-center">
+        <div class="download py-4 px-2 text-white rounded-2 text-center">
             <img src="assets/images/logoWhite.png" width="w-75" alt="">
             <h6 class="mt-3 mb-1">DOWNLOAD RIDE TADAY</h6>
             <p class="text-white mb-3">Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -296,7 +296,7 @@
                 <div class="d-inline-block align-top w-90">
                     <form action="">
                         <textarea name="" placeholder="write something hear .." rows="1"
-                                  class="form-control"></textarea>
+                                  class="form-control bg-light"></textarea>
                         <div class="row">
                             <div class="col-8">
                                 <div class="text-left ps-2 mt-2 ">
@@ -315,7 +315,7 @@
                                 </div>
                             </div>
                             <div class="col-4 text-end">
-                                <button type="submit" class="btn btn-danger-e btn-size-2 btn-sm fw-bold mt-2 px-4">
+                                <button type="submit" class="btn btn-danger-e btn-size-2 btn-sm mt-2 px-4">
                                     Post
                                 </button>
                             </div>
@@ -327,8 +327,8 @@
 
             </div>
             <div class="content-posts mt-3">
-                <div class="box-sh  mt-2 p-3 bg-white rounded-2">
-                    <div class="border-bottom pb-2">
+                <div class="box-sh p-3 bg-white rounded-2">
+                    <div class="">
                         <div class="position-relative">
                             <img src="assets/images/IMG_3915.JPG" height="50px" width="50px"
                                  class="cover rounded-circle bg-light border d-inline-block" alt="">
@@ -344,7 +344,7 @@
                                     <i class="fas fa-ellipsis-v text-muted"></i></button>
                                 <ul class="dropdown-menu border-0 shadow text-start left-150"
                                     aria-labelledby="dropdownMenuButton10">
-                                    <li class="p-1 border-bottom"><a class="dropdown-item" href="#"><i
+                                    <li class="p-1"><a class="dropdown-item" href="#"><i
                                             class="fas fa-share me-2"></i>Report</a></li>
                                 </ul>
                             </div>
@@ -406,7 +406,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="comments mt-2 collapse" id="collapseExample">
+                    <div class="comments collapse border-top pt-2" id="collapseExample">
                         <div class="comment border-bottom pb-2">
                             <img src="assets/images/IMG_3915.JPG" height="40" width="40px"
                                  class="cover rounded-circle bg-light border d-inline-block" alt="">
@@ -446,7 +446,7 @@
             </div>
             <div class="content-posts mt-3">
                 <div class="box-sh mt-2 p-3 bg-white rounded-2">
-                    <div class="border-bottom pb-2">
+                    <div class="">
                         <img src="assets/images/IMG_3915.JPG" height="50px" width="50px"
                              class="cover rounded-circle bg-light border d-inline-block" alt="">
                         <div class="w-75 d-inline-block align-top m-1">
@@ -508,7 +508,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="comments mt-2 collapse" id="collapseExample2">
+                    <div class="comments mt-2 collapse  border-top pt-2" id="collapseExample2">
                         <div class="comment border-bottom pb-2">
                             <img src="assets/images/IMG_3915.JPG" height="40" width="40px"
                                  class="cover rounded-circle bg-light border d-inline-block" alt="">
@@ -548,7 +548,7 @@
             </div>
             <div class="content-posts mt-3">
                 <div class="box-sh mt-2 p-3 bg-white rounded-2">
-                    <div class="border-bottom pb-2">
+                    <div class="">
                         <img src="assets/images/IMG_3915.JPG" height="50px" width="50px"
                              class="cover rounded-circle bg-light border d-inline-block" alt="">
                         <div class="w-75 d-inline-block align-top m-1">
@@ -610,7 +610,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="comments mt-2 collapse" id="collapseExample3">
+                    <div class="comments mt-2 collapse  border-top pt-2" id="collapseExample3">
                         <div class="comment border-bottom pb-2">
                             <img src="assets/images/IMG_3915.JPG" height="40" width="40px"
                                  class="cover rounded-circle bg-light border d-inline-block" alt="">
@@ -650,7 +650,7 @@
             </div>
             <div class="content-posts mt-3">
                 <div class="box-sh mt-2 p-3 bg-white rounded-2">
-                    <div class="border-bottom pb-2">
+                    <div class="">
                         <img src="assets/images/IMG_3915.JPG" height="50px" width="50px"
                              class="cover rounded-circle bg-light border d-inline-block" alt="">
                         <div class="w-75 d-inline-block align-top m-1">
@@ -712,7 +712,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="comments mt-2 collapse" id="collapseExample4">
+                    <div class="comments mt-2 collapse  border-top pt-2" id="collapseExample4">
                         <div class="comment border-bottom pb-2">
                             <img src="assets/images/IMG_3915.JPG" height="40" width="40px"
                                  class="cover rounded-circle bg-light border d-inline-block" alt="">
@@ -755,15 +755,15 @@
         </div>
     </div>
     <div class="list-right sticky-top scroll-n">
-        <div class="rounded-2 p-0 text-center box-sh">
-            <img src="assets/images/1111.png" class="cover w-100 bg-light rounded-2" alt="">
+        <div class="rounded-2 p-0 text-center box-sh mb-2">
+            <img src="assets/images/1111.png" class="cover w-100 rounded-3" height="250px" alt="">
         </div>
         <div class="bg-white py-3 ps-4 pe-2  box-sh rounded-2 mb-2">
-            <h6 class="text-muted mb-3">FRIEND REQUESTS</h6>
+            <h6 class="text-muted mb-3 btn-size-2">FRIEND REQUESTS</h6>
             <div class="pe-3 position-relative mb-2 border-bottom pb-2">
                 <a href="">
                     <img src="assets/images/logoderaa2.png" height="40px" width="40px"
-                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                         class="cover rounded-circle border d-inline-block" alt="">
                     <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
                 </a>
                 <div class="text-end">
@@ -775,7 +775,7 @@
             <div class="pe-3 position-relative mb-2 border-bottom pb-2">
                 <a href="">
                     <img src="assets/images/logoderaa2.png" height="40px" width="40px"
-                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                         class="cover rounded-circle border d-inline-block" alt="">
                     <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
                 </a>
                 <div class="text-end">
@@ -787,7 +787,7 @@
             <div class="pe-3 position-relative mb-2 border-bottom pb-2">
                 <a href="">
                     <img src="assets/images/logoderaa2.png" height="40px" width="40px"
-                         class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                         class="cover rounded-circle border d-inline-block" alt="">
                     <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
                 </a>
                 <div class="text-end">
@@ -800,61 +800,61 @@
 
         </div>
         <div class="bg-white py-3 ps-4 pe-2  box-sh rounded-2 my-2">
-            <h6 class="text-muted mb-3">MY FRIENDS</h6>
+            <h6 class="text-muted mb-3 btn-size-2">MY FRIENDS</h6>
             <div class=" position-relative">
                 <div class="pe-3 position-relative mb-2 border-bottom pb-2">
                     <a href="">
                         <img src="assets/images/logoderaa2.png" height="35px" width="35px"
-                             class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                             class="cover rounded-circle border d-inline-block" alt="">
                         <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
                     </a>
                 </div>
                 <div class="pe-3 position-relative mb-2 border-bottom pb-2">
                     <a href="">
                         <img src="assets/images/logoderaa2.png" height="35px" width="35px"
-                             class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                             class="cover rounded-circle border d-inline-block" alt="">
                         <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
                     </a>
                 </div>
                 <div class="pe-3 position-relative mb-2 border-bottom pb-2">
                     <a href="">
                         <img src="assets/images/logoderaa2.png" height="35px" width="35px"
-                             class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                             class="cover rounded-circle border d-inline-block" alt="">
                         <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
                     </a>
                 </div>
                 <div class="pe-3 position-relative mb-2 border-bottom pb-2">
                     <a href="">
                         <img src="assets/images/logoderaa2.png" height="35px" width="35px"
-                             class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                             class="cover rounded-circle border d-inline-block" alt="">
                         <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
                     </a>
                 </div>
                 <div class="pe-3 position-relative mb-2 border-bottom pb-2">
                     <a href="">
                         <img src="assets/images/logoderaa2.png" height="35px" width="35px"
-                             class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                             class="cover rounded-circle border d-inline-block" alt="">
                         <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
                     </a>
                 </div>
                 <div class="pe-3 position-relative mb-2 border-bottom pb-2">
                     <a href="">
                         <img src="assets/images/logoderaa2.png" height="35px" width="35px"
-                             class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                             class="cover rounded-circle border d-inline-block" alt="">
                         <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
                     </a>
                 </div>
                 <div class="pe-3 position-relative mb-2 border-bottom pb-2">
                     <a href="">
                         <img src="assets/images/logoderaa2.png" height="35px" width="35px"
-                             class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                             class="cover rounded-circle border d-inline-block" alt="">
                         <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
                     </a>
                 </div>
                 <div class="pe-3 position-relative mb-2 border-bottom pb-2">
                     <a href="">
                         <img src="assets/images/logoderaa2.png" height="35px" width="35px"
-                             class="cover rounded-circle border shadow-sm d-inline-block" alt="">
+                             class="cover rounded-circle border d-inline-block" alt="">
                         <h6 class="mb-0 d-inline-block w-75 text-truncate align-top mt-1 ms-1">Friends Moh</h6>
                     </a>
                 </div>
