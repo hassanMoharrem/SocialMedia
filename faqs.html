@@ -358,44 +358,14 @@
     });
     $('input#flexSwitchCheckChecked').click(function () {
         if ($(this).prop("checked") === true) {
-            $('body').addClass('bg-dark text-white-e');
-            $('.sidebar, .navbar-light').addClass('border-secondary');
-            $('.navbar-brand').addClass('text-white');
-            $('.bg-white, .bg-light, .when-hover .active').addClass('bg-dark-1');
-            $('.text-dark').addClass('text-white-1');
-            $('.border-white, .border').addClass('border-secondary-1');
-            $('.border-top').addClass('border-top border-secondary-1');
-            $('.border-2').addClass('border-2 border-secondary-1');
-            $('.bg-white-rgba').addClass('bg-black-rgba');
-            $('textarea').addClass('bg-dark-1 border-secondary-1');
-            $('.dropdown-menu ').addClass('bg-dark-1 border-secondary-1 text-white-1');
-            $('.dropdown-item ').addClass('text-white-1');
-            $('a').addClass('text-white-1');
-            $('input').addClass('border-secondary-1 text-white-1');
-            $('select').addClass('text-white-1');
-            $('footer').addClass('text-white');
+            $('body').addClass('dark-theme');
         } else {
-            $('body').removeClass('bg-dark text-white-e');
-            $('.sidebar, .navbar-light').removeClass('border-secondary');
-            $('.navbar-brand').removeClass('text-white');
-            $('.bg-white, .bg-light, .when-hover .active').removeClass('bg-dark-1');
-            $('.text-dark').removeClass('text-white-1');
-            $('.border-white, .border').removeClass('border-secondary-1');
-            $('.border-top').removeClass('border-top border-secondary-1');
-            $('.border-2').removeClass('border-2 border-secondary-1');
-            $('.bg-white-rgba').removeClass('bg-black-rgba');
-            $('textarea').removeClass('bg-dark-1 border-secondary-1');
-            $('.dropdown-menu ').removeClass('bg-dark-1 border-secondary-1 text-white-1');
-            $('.dropdown-item ').removeClass('text-white-1');
-            $('a ').removeClass('text-white-1');
-            $('input').removeClass('border-secondary-1 text-white-1');
-            $('select').removeClass('text-white-1');
-            $('footer').removeClass('text-white');
+            $('body').removeClass('dark-theme');
         }
-
     })
 
 </script>
+
 
 </body>
 

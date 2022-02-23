@@ -557,13 +557,7 @@ input {
     color: #FFFFFF;
 }
 
-.text-danger-e {
-    color: #ED1C24;
-}
 
-.border-danger-e {
-    border-color: #ED1C24 !important;
-}
 
 .bg-unfollow {
     background: #ECECEC !important;
@@ -589,9 +583,6 @@ input {
     bottom: -20px;
 }
 
-.border-white-1 {
-    border-color: #212121 !important;
-}
 
 .chat {
     max-height: 380px;
@@ -620,19 +611,25 @@ input {
     background-color: #000000 !important ;
     color: #F0F0F0 !important;
 }
+.dark-theme .border{
+    border-color: rgba(75,75,75,0.25);
+}
+.dark-theme .bg-light{
+    background:rgba(75,75,75,0.25)  !important;
+}
 .dark-theme .navbar-light , .dark-theme .border-bottom{
     border-color: #212121 !important;
 }
 .dark-theme .navbar-brand{
     color: #F0F0F0 !important;
 }
-.dark-theme .bg-white , .dark-theme .bg-light , .dark-theme .when-hover , .dark-theme .active{
+.dark-theme .bg-white , .dark-theme .when-hover , .dark-theme .active{
     background: #2E2E2E !important;
 }
 .dark-theme .text-dark{
     color: #F0F0F0 !important;
 }
-.dark-theme .border-white, .dark-theme .border , .dark-theme .border-top , .dark-theme .border-2{
+.dark-theme .border-white, .dark-theme .border-top , .dark-theme .border-2{
     border-color: #2E2E2E !important;
 }
 .dark-theme textarea , .dark-theme .dropdown-menu , .dark-theme .form-control{
@@ -640,12 +637,29 @@ input {
     border-color: #7E7E7E !important;
     color: #F0F0F0 !important;
 }
+.dark-theme .text-muted{
+    color: #6c757d !important;
+}
 .dark-theme .dropdown-item , .dark-theme a , .dark-theme footer{
     color: #F0F0F0 !important;
 }
-.dark-theme .dropdown-item:hover{
+.dark-theme .dropdown-item:hover , .dark-theme .bg-unfollow-Receipt , .dark-theme .bg-unfollow-Send{
     background-color: #262626 !important;
 }
 .dark-theme .drop-notification li:hover{
     background-color: #262626 !important;
+}
+.text-danger-e {
+    color: #ED1C24 !important;
+}
+
+.border-danger-e {
+    border-color: #ED1C24 !important;
+}
+.dark-theme .text-danger-e {
+    color: #ED1C24 !important;
+}
+
+.dark-theme .border-danger-e {
+    border-color: #ED1C24 !important;
 }
