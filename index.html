@@ -18,6 +18,9 @@
 
     <!-- My own style -->
     <link href="assets/css/style.css" rel="stylesheet"/>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+
 
     <title>Hello, world!</title>
 </head>
@@ -38,7 +41,7 @@
                 </form>
             </div>
         </div>
-        <div class="col-md-4 text-right d-lg-block d-inline-block w-lg-100 w-sm-auto my-auto ms-sm-auto">
+        <div class="col-md-4 text-end d-lg-block d-inline-block w-lg-100 w-sm-auto my-auto ms-sm-auto">
             <a href="" class="pe-3 border-end d-none d-lg-inline-block"><i
                     class="fas fa-map-marker-alt text-danger-e h5 mb-0 mx-2"></i>Map</a>
             <div class="dropdown d-inline-block ms-1">
@@ -274,7 +277,7 @@
             </div>
 
         </div>
-        <div class="download py-4 px-2 text-white rounded-2 text-center">
+        <div class="download py-4 px-2 text-white rounded-2 text-center mb-3">
             <img src="assets/images/logoWhite.png" width="w-75" alt="">
             <h6 class="mt-3 mb-1">DOWNLOAD RIDE TADAY</h6>
             <p class="text-white mb-3">Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -285,6 +288,10 @@
             <a href="" class="rounded-3 border-2 border-white">
                 <img src="assets/images/iosdownload.png" class="w-75 mt-2" alt="">
             </a>
+        </div>
+        <div class="rounded-2 text-center bg-white mb-3 box-sh p-2 position-relative">
+            <div id="map" class="w-100 position-relative top-0 start-0" style="height: 200px !important"></div>
+            <a href="" class="btn btn-danger-e btn-size-2 px-3 py-2 position-absolute bottom-0 view-map mb-3">View Map</a>
         </div>
     </div>
     <div class="main">
@@ -800,6 +807,9 @@
             </div>
 
         </div>
+        <div class="my-2 text-center">
+            <i class="fas fa-spinner fa-spin text-muted fa-2x"></i>
+        </div>
     </div>
     <div class="list-right sticky-top scroll-n">
         <div class="rounded-2 p-0 text-center mb-2">
@@ -953,7 +963,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"
         integrity="sha512-zMfrMAZYAlNClPKjN+JMuslK/B6sPM09BGvrWlW+cymmPmsUT1xJF3P4kxI3lOh9zypakSgWaTpY6vDJY/3Dig=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+<script src="assets/map-js.js"></script>
 <script>
     $(".scroll-n").niceScroll({
         cursoropacitymin: 0,

@@ -255,10 +255,6 @@ textarea {
     overflow: auto;
 }
 
-.dropdown-menu-1 {
-    height: 300px;
-    overflow: hidden;
-}
 
 .left-150 {
     left: -150px !important;
@@ -387,6 +383,9 @@ textarea {
     .m-23 {
         margin: 0 20px !important;
     }
+    .img-map{
+        height: 100px !important;
+    }
 }
 
 .bg-dark-1 {
@@ -485,6 +484,12 @@ textarea {
 .car-active {
     transition: ease 0.5s;
     border: 2px solid #ED1C24 !important;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: auto !important;
+    right: 0 !important;
+    margin-top: .125rem;
 }
 
 .profile-nav:hover {
@@ -607,6 +612,42 @@ input {
     padding: .25em .40em !important;
     font-weight:400 !important;
 }
+.marker{
+    background-image: url("../images/marker.png");
+    height: 50px;
+    width: 50px;
+    cursor: pointer !important;
+}
+.img-user-mark{
+    margin: 7px 10px;
+}
+.mapboxgl-canvas{
+    width: 100% !important;
+}
+.view-map{
+    right: 30%;
+}
+.w-45{
+    width: 45% !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.width-250{
+    width: 300px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+    margin-left: -300px;
+    transition: ease 0.5s;
+}
 .dark-theme{
     background-color: #000000 !important ;
     color: #F0F0F0 !important;
@@ -643,7 +684,7 @@ input {
 .dark-theme .dropdown-item , .dark-theme a , .dark-theme footer{
     color: #F0F0F0 !important;
 }
-.dark-theme .dropdown-item:hover , .dark-theme .bg-unfollow-Receipt , .dark-theme .bg-unfollow-Send{
+.dark-theme .dropdown-item:hover ,.dark-theme .margin-nigative, .dark-theme .bg-unfollow-Receipt , .dark-theme .bg-unfollow-Send{
     background-color: #262626 !important;
 }
 .dark-theme .drop-notification li:hover{
